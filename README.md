@@ -7,8 +7,8 @@ More info is available at http://www.vbox.me/
 
 ### Installation ###
 
-1) Unpack **Portable-VirtualBox-6-5-11.7z** to any folder i.e. "D:\Portable-VirtualBox\".
-2) Download latest version i.e. **VirtualBox-6.1.28-147628-Win.exe** from official website: https://www.virtualbox.org/wiki/Downloads
+1) Unpack **Portable-VirtualBox-6-5-11.7z** to any folder for example "D:\Portable-VirtualBox\".
+2) Download latest version for example **VirtualBox-6.1.28-147628-Win.exe** from official website: https://www.virtualbox.org/wiki/Downloads
 3) Execute **Portable-VirtualBox.exe**, press **Search** button and navigate to **VirtualBox-6.1.28-147628-Win.exe**.
     Do not check **Extract the files for 32-bit system** checkbox!
     32-bit was deprecated in VirtualBox v6.
