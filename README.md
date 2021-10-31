@@ -27,8 +27,8 @@ Man can use VirtualBox v5 or even v4 with 32-bit support.
 
 ### Building ###
 
-Download and install **AutoIt** from official website: https://www.autoitscript.com/site/autoit/downloads/. Current stable is v. 3.3.14.5.
-Right click **Portable-VirtualBox.au3** -> Compile with options -> Compile Script.
+1) Download and install **AutoIt** from official website: https://www.autoitscript.com/site/autoit/downloads/. Current stable is v. 3.3.14.5.
+2) Right click **Portable-VirtualBox.au3** -> Compile with options -> Compile Script.
 That's it!
 
 Or see original instruction for information on how to build from source: [BUILDING](BUILDING.md).
