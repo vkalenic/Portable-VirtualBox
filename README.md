@@ -14,7 +14,7 @@ More info is available at http://www.vbox.me/
 4) Activate **Extract the files for 64-bit system** checkbox. Press OK and follow instructions.
 
 Man can use VirtualBox v5 or even v4 with 32-bit support.
-32-bit was deprecated in VirtualBox v6.
+32-bit is deprecated in VirtualBox v6.
 
 
 ### Manual Update ###
