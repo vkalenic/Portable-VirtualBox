@@ -23,7 +23,7 @@ Man can use VirtualBox v5 or even v4 with 32-bit support.
 2) Put it to **Portable-VirtualBox** dir.
 3) Open **UnpackPortable_6.cmd** in notepad and edit first four lines: VER, MAJOR, MINOR, BUILD.
 4) Execute **UnpackPortable_6.cmd**.
-5) Directory" VirtualBox-6.x.x-xxxxxx-Win" will be created. Move it's contents to **Portable-VirtualBox** dir. Replace old files.
+5) Directory **VirtualBox-6.x.x-xxxxxx-Win** will be created. Move it's contents to **Portable-VirtualBox** dir. Replace old files.
 
 ### Building ###
 
