@@ -11,10 +11,10 @@ More info is available at http://www.vbox.me/
 1) Unpack **Portable-VirtualBox-6-5-11.7z** to any folder for example "D:\Portable-VirtualBox\".
 2) Download VirtualBox from official website: https://www.virtualbox.org/wiki/Downloads. For example **VirtualBox-6.1.28-147628-Win.exe**.
 3) Execute **Portable-VirtualBox.exe**, press **Search** button and navigate to **VirtualBox-6.1.28-147628-Win.exe**.
-4) Activate **Extract the files for 32-bit system** checkbox. Press OK and follow instructions.
+4) Activate **Extract the files for 64-bit system** checkbox. Press OK and follow instructions.
 
-32-bit was deprecated in VirtualBox v6.
 Man can use VirtualBox v5 or even v4 with 32-bit support.
+32-bit was deprecated in VirtualBox v6.
 
 
 ### Manual Update ###
