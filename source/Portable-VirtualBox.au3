@@ -1585,10 +1585,8 @@ Func UseSettings()
 	EndIf
 
 	If FileExists(@ScriptDir & "\Extension") Then
-		If FileExists(@ScriptDir & "\Extension") Then
-			RunWait(@ScriptDir & "\data\tools\7z.exe x -o" & @ScriptDir & "\temp\ " & @ScriptDir & "\Extension", @ScriptDir, @SW_HIDE)
-			RunWait(@ScriptDir & "\data\tools\7z.exe x -o" & @ScriptDir & "\temp\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\ " & @ScriptDir & "\temp\Extension~", @ScriptDir, @SW_HIDE)
-		EndIf
+		RunWait(".\data\tools\7za.exe x ./Extension -o./temp", @ScriptDir, @SW_HIDE)
+		RunWait(".\data\tools\7za.exe x ./temp/Extension~ -o./temp/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack", @ScriptDir, @SW_HIDE)
 	EndIf
 
 	If GUICtrlRead($Checkbox100) = $GUI_CHECKED And FileExists(@ScriptDir & "\temp") Then
@@ -1599,6 +1597,7 @@ Func UseSettings()
 		FileCopy(@ScriptDir & "\temp\x86\PFiles\Oracle\VirtualBox\*", @ScriptDir & "\app32", 9)
 		DirRemove(@ScriptDir & "\app32\accessible", 1)
 		DirRemove(@ScriptDir & "\app32\sdk", 1)
+		DirCopy(@ScriptDir & "\temp\ExtensionPacks", @ScriptDir & "\app32\ExtensionPacks", 1)
 	EndIf
 
 	If GUICtrlRead($Checkbox110) = $GUI_CHECKED And FileExists(@ScriptDir & "\temp") Then
@@ -1609,6 +1608,7 @@ Func UseSettings()
 		FileCopy(@ScriptDir & "\temp\x64\PFiles\Oracle\VirtualBox\*", @ScriptDir & "\app64", 9)
 		DirRemove(@ScriptDir & "\app64\accessible", 1)
 		DirRemove(@ScriptDir & "\app64\sdk", 1)
+		DirCopy(@ScriptDir & "\temp\ExtensionPacks", @ScriptDir & "\app64\ExtensionPacks", 1)
 	EndIf
 
 	If GUICtrlRead($Checkbox100) = $GUI_CHECKED And GUICtrlRead($Checkbox110) = $GUI_CHECKED Then
